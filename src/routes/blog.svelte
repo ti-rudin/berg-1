@@ -31,7 +31,7 @@
 <script>
 	import IndexCard from '../components/IndexCard.svelte';
 
-	export let page;
+	//export let page;
 	export let list;
 
 	// technically this is a slighlty different type because doesnt have 'content' but we'll let it slide
