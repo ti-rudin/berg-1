@@ -3,3 +3,5 @@
 /rss /api/rss.xml
 
 # read docs for more https://docs.netlify.com/routing/redirects/
+
+* /.netlify/functions/render 200
