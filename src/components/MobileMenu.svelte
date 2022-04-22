@@ -82,7 +82,7 @@
 					class="flex w-auto pb-4"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/bands">Команды</a
+					href="/bands">Продукция</a
 				>
 			</li>
 			<li
@@ -93,7 +93,7 @@
 					class="flex w-auto pb-4"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/now">Сейчас в эфире</a
+					href="/now">Автозапчасти</a
 				>
 			</li>
 
@@ -105,7 +105,7 @@
 					class="flex w-auto pb-4"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/lotereya">Лотерея</a
+					href="/lotereya">Масла и тех. жидкости</a
 				>
 			</li>
 			<div class="h-5" />
@@ -117,7 +117,7 @@
 					class="flex w-auto pb-4"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/ti">О приложении</a
+					href="/ti">Акции</a
 				>
 			</li>
 			<li
@@ -128,7 +128,7 @@
 				class="flex w-auto pb-4"
 				sveltekit:prefetch
 				on:click={() => setTimeout(() => (isOpen = false), 300)}
-				href="/blog">Журнал изменений</a
+				href="/blog">Новости</a
 			>
 		</li>
 			<li
@@ -139,7 +139,7 @@
 					class="flex w-auto pb-4"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/sponsoram">Спонсорам</a
+					href="/sponsoram">Поддержка</a
 				>
 			</li>
 
