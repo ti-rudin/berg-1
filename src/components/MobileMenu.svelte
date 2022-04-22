@@ -14,7 +14,7 @@
 	}
 </script>
 
-<div class="ml-[-0.60rem] md:hidden">
+<div class="ml-[-1.60rem] sm:ml-[-0.60rem] md:hidden">
 	<button
 		class="burger visible"
 		aria-label="Toggle menu"
@@ -23,7 +23,7 @@
 	>
 		{#if !isOpen}
 			<svg
-				class="absolute h-5 w-5 text-gray-900 dark:text-gray-100"
+				class="absolute  ml-2 w-8 h-8 ring-red-500 bg-red-500 ring  rounded  "
 				width="20"
 				height="20"
 				viewBox="0 0 20 20"
@@ -42,6 +42,7 @@
 					stroke-linejoin="round"
 				/></svg
 			>
+	
 		{:else}
 			<svg
 				class="h-5 w-5 absolute text-gray-900 dark:text-gray-100"
@@ -56,6 +57,7 @@
 				shape-rendering="geometricPrecision"
 				data-hide="true"><path d="M18 6L6 18" /><path d="M6 6l12 12" /></svg
 			>
+	
 		{/if}
 	</button>
 	{#if isOpen}
@@ -186,7 +188,7 @@
 		padding: 0 180px 0 4px;
 		margin: 0;
 		padding-top: 24px;
-		padding-left: 19px;
+		padding-left: 2rem;
 		width: calc(99vw - 4px);
 		left: -16px;
 		height: 99vh;

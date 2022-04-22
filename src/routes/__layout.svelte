@@ -16,17 +16,17 @@
 	<Nav />
 </div>
 <main
-	class=" flex flex-col justify-center bg-gray-100/50 px-4 pb-4 pt-3 transition-all dark:bg-gray-900 sm:px-8 "
+	class=" flex flex-col justify-center bg-gray-100/50 px-4 pb-4 pt-3 transition-all dark:bg-gray-900 "
 >
 	<slot />
 </main>
 
 <footer
-	class="z-20 mb-4 flex w-full   flex-col  items-start justify-center bg-gray-300 dark:bg-black/20"
+	class="z-20 mb-4 flex w-full   flex-col  items-start justify-center podval-bg text-white dark:bg-black/20"
 >
-	<div class="mx-auto flex  w-full max-w-5xl  px-4 sm:px-0">
-		<div class="hidden sm:block">
-			<div class="flex flex-col">
+	<div class="mx-auto flex  w-full max-w-5xl">
+		<div class="hidden sm:block  ">
+			<div class="ml-4 flex flex-col"> 
 				<a sveltekit:prefetch href="/" class="pt-4"> Продукция </a>
 				<a sveltekit:prefetch href="/" class="pt-4"> Автозапчасти </a>
 				<a sveltekit:prefetch href="/" class="pt-4"> Масла и технические жидкости </a>
@@ -63,7 +63,7 @@
 		</div>
 		<div class=" hidden sm:block mx-auto" />
 		<div>
-			<div class="ml-4  mt-2 flex flex-col  ">
+			<div class="ml-4 mt-2 flex flex-col  ">
 				<h3>Центральный операционный офис</h3>
 				<address>Москва, 117623</address>
 				<address>ул. 2-я Мелитопольская, вл.4А, стр.40</address>
@@ -107,14 +107,23 @@
 			<div class="lblock  text-right">
 				ООО БЕРГ Холдинг<a class="px-1" href="/rights">©</a>2006-2022
 			</div>
-			<a sveltekit:prefetch href="/privacy" class="lblock ml-3 pt-1 text-sm">
-				Условия использования</a
-			>
 		</div>
 	</div>
 </footer>
 
 <style>
+	footer a{
+		color: white;
+	}
+	.firmblue {
+		color: #2c4594;
+	}
+	.firmblue-bg {
+		background-color: #2c4594;
+	}
+	.podval-bg{
+		background-color: #162145;
+	}
 	.feedback {
 		color: orange;
 	}
