@@ -78,7 +78,7 @@
 				<address>сб, вс: 10:00 - 18:00</address>
 			</div>
 			<a
-				class="ring-white-400 ml-1 flex h-9  rounded-lg px-3 pt-1 text-center text-black ring-2
+				class="ring-white-400 ml-4 mt-3 w-52 flex h-11 rounded-lg p-2 text-center text-black ring-2
 			transition-all  dark:text-white"
 				href="https://che-tver.timepad.ru/event/1900315/"
 			>
