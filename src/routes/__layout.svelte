@@ -20,7 +20,7 @@
 		{/if}
 		<div class=" mx-auto" />
 		<div class="flex flex-col">
-			<a href="tel:74957889597" class="phone">+7 (495) 788-95-97</a>
+			<a href="tel:+74957889597" class="phone">+7 (495) 788-95-97</a>
 			<div class="flex pt-2">
 				<div class=" mx-auto" />
 
@@ -163,7 +163,7 @@
 				required={true}
 				class="w-full block h-11 rounded-md border-gray-300 bg-white px-4 pr-32 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100"
 			/><button
-				class="absolute right-1 top-1 flex h-9 w-28 items-center justify-center rounded firmblue-bg px-4 font-medium text-gray-200 dark:bg-gray-700 dark:text-gray-100"
+				class="absolute right-1 top-1 flex h-9 items-center justify-center rounded firmblue-bg px-8 font-medium text-gray-200 dark:bg-gray-700 dark:text-gray-100"
 				type="submit">Найти</button
 			>
 		</form>
@@ -389,7 +389,9 @@
 		text-decoration: dashed;
 	}
 	.phone {
-		font-size: 1.6rem;
+		font-size: 1.4rem;
+		color: #2c4594;
+		text-decoration: none;
 	}
 	.logo {
 		background: transparent url('/berg_logo.png') 50% 50% no-repeat;

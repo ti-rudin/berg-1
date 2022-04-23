@@ -5,7 +5,7 @@
 </script>
 
 <a sveltekit:prefetch
-	class="hidden text-gray-200 rounded-lg  transition-all  md:inline-block"
+	class="hidden text-gray-200 rounded-lg text-base transition-all  md:inline-block"
 	class:font-semibold={isActive}
 	{href}
 	><span class="capsize"><slot /> </span>

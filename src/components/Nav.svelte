@@ -55,7 +55,7 @@
 	<MobileMenu />
 
 
-	<ul class="flex space-x-4 ">
+	<ul class="flex space-x-4 tracking-wide">
 		<li>
 			<NavLink href="/">Главная</NavLink>
 		</li>
