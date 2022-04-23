@@ -14,7 +14,7 @@
 	}
 </script>
 
-<div class="ml-[-1.60rem] sm:ml-[-0.60rem] md:hidden">
+<div class="md:hidden">
 	<button
 		class="burger visible"
 		aria-label="Toggle menu"
@@ -23,7 +23,7 @@
 	>
 		{#if !isOpen}
 			<svg
-				class="absolute  ml-2 w-8 h-8 ring-red-500 bg-red-500 ring  rounded  "
+				class="absolute ml-[-0.1rem] w-8 h-8 ring-red-500 bg-red-500 ring  rounded  "
 				width="20"
 				height="20"
 				viewBox="0 0 20 20"
@@ -45,7 +45,7 @@
 	
 		{:else}
 			<svg
-				class="h-5 w-5 absolute text-gray-900 dark:text-gray-100"
+				class="h-5 w-5 absolute text-gray-100"
 				viewBox="0 0 24 24"
 				width="24"
 				height="24"
@@ -70,7 +70,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto pb-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/">Главная</a
@@ -81,7 +81,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto pb-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/bands">Продукция</a
@@ -92,7 +92,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto pb-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/now">Автозапчасти</a
@@ -104,7 +104,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto pb-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/lotereya">Масла и тех. жидкости</a
@@ -116,7 +116,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto pb-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/ti">Акции</a
@@ -127,7 +127,7 @@
 			style="transition-delay: 150ms;"
 		>
 			<a
-				class="flex w-auto pb-4"
+				class="flex w-auto pb-"
 				sveltekit:prefetch
 				on:click={() => setTimeout(() => (isOpen = false), 300)}
 				href="/blog">Новости</a
@@ -138,7 +138,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto pb-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/sponsoram">Поддержка</a
@@ -191,7 +191,7 @@
 		padding-left: 2rem;
 		width: calc(99vw - 4px);
 		left: -16px;
-		height: 99vh;
+		height: 80vh;
 		z-index: 1000;
 		opacity: 0;
 		top: 4.3rem;

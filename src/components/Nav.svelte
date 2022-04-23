@@ -48,18 +48,14 @@
 </script>
 
 <nav
-	class="relative mx-auto flex w-full max-w-5xl items-center justify-between bg-opacity-60 px-4 pt-3 
-	 pb-3 text-gray-900 dark:text-gray-100 sm:px-0 
-	 lg:px-4"
+	class="relative mx-auto flex w-full max-w-5xl items-center justify-between pt-3 
+	 pb-3 text-white dark:text-gray-100  
+	 "
 >
 	<MobileMenu />
-	{#if isDark}
-	<div class="logo-dark"></div>
-	{:else}
-	<div class="logo"></div>
-	{/if}
-	
-	<ul class="ml-[-0.60rem] flex">
+
+
+	<ul class="flex space-x-4 ">
 		<li>
 			<NavLink href="/">Главная</NavLink>
 		</li>
@@ -79,8 +75,8 @@
 
 	<div class="flex items-center space-x-4">
 		<a
-			class="flex h-9 items-center justify-center rounded-lg px-1  text-gray-700 hover:no-underline  dark:ring-blue-400 ring-blue-600 transition-all hover:ring-2
-			dark:text-gray-200
+			class="flex h-9 items-center justify-center rounded-lg px-1  ring-blue-600  transition-all hover:no-underline hover:ring-2 text-gray-200
+			dark:ring-blue-400
 			"
 			href="/"
 			aria-label="lang"
@@ -180,17 +176,17 @@
 </nav>
 
 <style>
-	.logo{
-		background: transparent url("berg_logo.png") 50% 50% no-repeat;
+	.logo {
+		background: transparent url('berg_logo.png') 50% 50% no-repeat;
 		width: 130px;
 		height: 35px;
 	}
-	.logo-dark{
-		background: transparent url("berg_logo_dark.png") 50% 50% no-repeat;
+	.logo-dark {
+		background: transparent url('berg_logo_dark.png') 50% 50% no-repeat;
 		width: 130px;
 		height: 35px;
 	}
-	
+
 	.firmblue {
 		color: #2c4594;
 	}
