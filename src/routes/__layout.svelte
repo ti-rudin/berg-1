@@ -392,12 +392,12 @@
 		font-size: 1.6rem;
 	}
 	.logo {
-		background: transparent url('berg_logo.png') 50% 50% no-repeat;
+		background: transparent url('/berg_logo.png') 50% 50% no-repeat;
 		width: 130px;
 		height: 35px;
 	}
 	.logo-dark {
-		background: transparent url('berg_logo_dark.png') 50% 50% no-repeat;
+		background: transparent url('/berg_logo_dark.png') 50% 50% no-repeat;
 		width: 130px;
 		height: 35px;
 	}
