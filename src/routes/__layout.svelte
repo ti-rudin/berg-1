@@ -20,8 +20,8 @@
 		{/if}
 		<div class=" mx-auto" />
 		<div class="flex flex-col">
-			<a href="tel:+74957889597" class="phone">+7 (495) 788-95-97</a>
-			<div class="flex pt-2">
+			<a href="tel:+74957889597" class="phone text-[22px] sm:text-[26px]">+7 (495) 788-95-97</a>
+			<div class="flex pt-1">
 				<div class=" mx-auto" />
 
 				<svg
@@ -389,7 +389,7 @@
 		text-decoration: dashed;
 	}
 	.phone {
-		font-size: 1.4rem;
+		
 		color: #2c4594;
 		text-decoration: none;
 	}
