@@ -10,7 +10,10 @@
 <div class="flex">
 	<span class="mx-auto" />
 	<div class="flex  w-full max-w-5xl flex-col justify-center px-0 sm:flex-row lg:px-4">
-		<div class="mx-auto flex w-full border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
+		<div class="cursor-pointer rounded ring-blue-600 transition-all hover:ring-2 bg-blue-400/30 hover:bg-blue-400/50 focus:outline-none 
+        mx-auto flex w-full p-2 text-center sm:w-1/4 sm:flex-col
+        mb-2 sm:mr-2
+        ">
 			<span class="brick_oil__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
 			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">
 				Масла и тех. жидкости
@@ -18,20 +21,29 @@
 			<span class="mx-auto" />
 		</div>
 
-		<div class="mx-auto flex w-full border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
+		<div class="cursor-pointer rounded ring-blue-600 transition-all hover:ring-2 bg-blue-400/30 hover:bg-blue-400/50 focus:outline-none 
+        mx-auto flex w-full p-2 text-center sm:w-1/4 sm:flex-col
+        mb-2 sm:mr-2
+        ">
 			<span class="brick_antis__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
 			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">
 				Средства защиты
 			</h1>
 			<span class="mx-auto" />
 		</div>
-		<div class="mx-auto flex w-full border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
+		<div class="cursor-pointer rounded ring-blue-600 transition-all hover:ring-2 bg-blue-400/30 hover:bg-blue-400/50 focus:outline-none 
+        mx-auto flex w-full p-2 text-center sm:w-1/4 sm:flex-col
+        mb-2 sm:mr-2
+        ">
 			<span class="brick_brushes__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
 			<h1 class="mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center ">
 				Щетки стеклоочистителя
 			</h1>
 		</div>
-		<div class="mx-auto flex w-full border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
+		<div class="cursor-pointer rounded ring-blue-600 transition-all hover:ring-2 bg-blue-400/30 hover:bg-blue-400/50 focus:outline-none 
+        mx-auto flex w-full p-2 text-center sm:w-1/4 sm:flex-col
+        mb-2
+        ">
 			<span class="brick_goffer__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
 			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">
 				Гофры глушителя
@@ -47,18 +59,27 @@
 <div class="flex">
 	<span class="mx-auto  " />
 	<div class="flex  w-full max-w-5xl flex-col justify-center px-0 sm:flex-row lg:px-4">
-		<div class="mx-auto  flex w-full border border-red-700 p-2 text-center sm:w-1/3  sm:flex-col">
+        <div class="cursor-pointer rounded ring-blue-600 transition-all hover:ring-2 bg-blue-400/30 hover:bg-blue-400/50 focus:outline-none 
+        mx-auto flex w-full p-2 text-center sm:w-1/3 sm:flex-col
+        mb-2 sm:mr-2
+        ">
 			<span class="brick_electronic__ico m-1 mx-auto mr-2 p-5  sm:mr-auto" />
 			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">Электрика</h1>
 			<span class="mx-auto" />
 		</div>
 
-		<div class="mx-auto  flex w-full border border-red-700 p-2 text-center sm:w-1/3  sm:flex-col">
+        <div class="cursor-pointer rounded ring-blue-600 transition-all hover:ring-2 bg-blue-400/30 hover:bg-blue-400/50 focus:outline-none 
+        mx-auto flex w-full p-2 text-center sm:w-1/3 sm:flex-col
+        mb-2 sm:mr-2
+        ">
 			<span class="brick_accessories__ico  m-1 mx-auto mr-2 p-5  sm:mr-auto" />
 			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">Аксессуары</h1>
 			<span class="mx-auto" />
 		</div>
-		<div class="mx-auto  flex w-full border border-red-700 p-2 text-center sm:w-1/3  sm:flex-col">
+        <div class="cursor-pointer rounded ring-blue-600 transition-all hover:ring-2 bg-blue-400/30 hover:bg-blue-400/50 focus:outline-none 
+        mx-auto flex w-full p-2 text-center sm:w-1/3 sm:flex-col
+        mb-2
+        ">
 			<span class="brick_chemistry__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
 			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center">Автохимия</h1>
 		</div>
