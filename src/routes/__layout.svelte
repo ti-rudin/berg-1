@@ -21,7 +21,7 @@
 		<div class=" mx-auto" />
 		<div class="flex flex-col mt-2">
 		
-			<a href="tel:+74957889597" class="phone text-[23px] sm:text-[26px]">+7 (495) 788-95-97</a>
+			<a href="tel:+74957889597" class="phone text-[1.63rem] sm:text-[1.9rem]">+7 (495) 788-95-97</a>
 		
 		</div>
 	</div>

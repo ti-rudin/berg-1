@@ -54,7 +54,7 @@
 >
 	<MobileMenu />
 
-
+<div class=" hidden md:inline-block ">
 	<ul class="flex space-x-4 tracking-wide">
 		<li>
 			<NavLink href="/">Главная</NavLink>
@@ -72,7 +72,7 @@
 			<NavLink href="/">Контакты</NavLink>
 		</li>
 	</ul>
-
+</div>
 	<div class="flex items-center space-x-4">
 		<div class="flex pt-1">
 			<div class=" mx-auto" />
