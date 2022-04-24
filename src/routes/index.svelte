@@ -9,31 +9,33 @@
 
 <div class="flex">
 	<span class="mx-auto" />
-	<div class="flex  w-full max-w-5xl px-0 lg:px-4 flex-col justify-center sm:flex-row">
-		<div class="mx-auto flex w-60 border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
-			<span class="mx-auto" />
-			<span class="brick_oil__ico m-1 mx-auto p-5" />
-			<h1 class="m-1 text-lg leading-4 ">Масла и тех. жидкости</h1>
+	<div class="flex  w-full max-w-5xl flex-col justify-center px-0 sm:flex-row lg:px-4">
+		<div class="mx-auto flex w-full border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
+			<span class="brick_oil__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
+			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">
+				Масла и тех. жидкости
+			</h1>
 			<span class="mx-auto" />
 		</div>
 
-		<div class="mx-auto flex w-60 border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
-			<span class="mx-auto" />
-			<span class="brick_antis__ico m-1 mx-auto p-5" />
-			<h1 class="m-1 text-lg leading-4 ">Средства защиты</h1>
-			<span class="mx-auto" />
-		</div>
-		<div class="mx-auto flex w-60 border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
-			<span class="mx-auto" />
-			<span class="brick_brushes__ico m-1 mx-auto p-5" />
-			<h1 class="m-1  text-lg leading-4 ">Щетки стеклоочистителя</h1>
-
+		<div class="mx-auto flex w-full border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
+			<span class="brick_antis__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
+			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">
+				Средства защиты
+			</h1>
 			<span class="mx-auto" />
 		</div>
-		<div class="mx-auto flex w-60 border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
-			<span class="mx-auto" />
-			<span class="brick_goffer__ico m-1 mx-auto p-5" />
-			<h1 class="m-1 text-lg leading-4 ">Гофры глушителя</h1>
+		<div class="mx-auto flex w-full border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
+			<span class="brick_brushes__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
+			<h1 class="mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center ">
+				Щетки стеклоочистителя
+			</h1>
+		</div>
+		<div class="mx-auto flex w-full border border-red-700 p-2 text-center sm:w-1/4 sm:flex-col">
+			<span class="brick_goffer__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
+			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">
+				Гофры глушителя
+			</h1>
 
 			<span class="mx-auto" />
 		</div>
@@ -42,34 +44,27 @@
 	<span class="mx-auto" />
 </div>
 
-
 <div class="flex">
 	<span class="mx-auto  " />
-    <div class="flex  w-full max-w-5xl px-0 lg:px-4 flex-col justify-center sm:flex-row">
-        <div class="mx-auto  flex w-60 sm:w-1/3 border border-red-700 p-2 text-center  sm:flex-col">
-            <span class="mx-auto" />
-            <span class="brick_electronic__ico m-1 mx-auto  p-5" />
-            <h1 class="m-1 text-lg leading-4 ">Электрика</h1>
-            <span class="mx-auto" />
-        </div>
-    
-        <div class="mx-auto  flex w-60 sm:w-1/3 border border-red-700 p-2 text-center  sm:flex-col">
-            <span class="mx-auto" />
-            <span class="brick_accessories__ico  m-1 mx-auto  p-5" />
-            <h1 class="m-1 text-lg leading-4 "> Аксессуары </h1>
-            <span class="mx-auto" />
-        </div>
-        <div class="mx-auto  flex w-60 sm:w-1/3 border border-red-700 p-2 text-center  sm:flex-col">
-            <span class="mx-auto" />
-    
-            <span class="brick_chemistry__ico m-1 mx-auto p-5" />
-            <h1 class="m-1 text-lg leading-4 ">Автохимия</h1>
-            <span class="mx-auto" />
-        </div>
-    </div>
+	<div class="flex  w-full max-w-5xl flex-col justify-center px-0 sm:flex-row lg:px-4">
+		<div class="mx-auto  flex w-full border border-red-700 p-2 text-center sm:w-1/3  sm:flex-col">
+			<span class="brick_electronic__ico m-1 mx-auto mr-2 p-5  sm:mr-auto" />
+			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">Электрика</h1>
+			<span class="mx-auto" />
+		</div>
+
+		<div class="mx-auto  flex w-full border border-red-700 p-2 text-center sm:w-1/3  sm:flex-col">
+			<span class="brick_accessories__ico  m-1 mx-auto mr-2 p-5  sm:mr-auto" />
+			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center  ">Аксессуары</h1>
+			<span class="mx-auto" />
+		</div>
+		<div class="mx-auto  flex w-full border border-red-700 p-2 text-center sm:w-1/3  sm:flex-col">
+			<span class="brick_chemistry__ico m-1 mx-auto mr-2 p-5 sm:mr-auto" />
+			<h1 class=" mt-4 w-full text-left text-lg leading-4  sm:mt-0 sm:text-center">Автохимия</h1>
+		</div>
+	</div>
 	<span class="mx-auto" />
 </div>
-
 
 <div class="row__with_cols flex flex-col">
 	<div class="catalogue_bricks__block">
@@ -108,16 +103,17 @@
 	.brick_oil__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
 		background-repeat: no-repeat;
-		background-position: -7px -153px;
-		width: 40px;
+		background-size: 850px;
+		background-position: 3px -133px;
+		width: 50px;
 		height: 40px;
 	}
 	.brick_chemistry__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
 		background-repeat: no-repeat;
-		width: 40px;
+		width: 50px;
 		height: 40px;
-		background-position: -150px -153px;
+		background-position: -140px -153px;
 	}
 	.brick_tires__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
@@ -127,23 +123,25 @@
 	.brick_antis__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
 		background-repeat: no-repeat;
-		background-position: -720px -150px;
-		width: 80px;
+		background-position: -640px -130px;
+		background-size: 850px;
+		width: 50px;
 		height: 40px;
 	}
 	.brick_electronic__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
 		background-repeat: no-repeat;
-		background-position: -58px -153px;
-		width: 40px;
+		background-position: -52px -153px;
+		width: 50px;
 		height: 40px;
 	}
 	.brick_brushes__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
 		background-repeat: no-repeat;
-		width: 80px;
+		width: 50px;
 		height: 40px;
-		background-position: -317px -152px;
+		background-size: 900px;
+		background-position: -297px -142px;
 	}
 	.brick_tools__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
@@ -155,14 +153,14 @@
 	.brick_accessories__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
 		background-repeat: no-repeat;
-		width: 30px;
+		width: 50px;
 		height: 40px;
-		background-position: -238px -152px;
+		background-position: -228px -152px;
 	}
 	.brick_goffer__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
 		background-repeat: no-repeat;
-		width: 47px;
+		width: 50px;
 		height: 40px;
 		background-position: -659px -146px;
 	}
