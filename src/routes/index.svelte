@@ -200,10 +200,10 @@
 	.brick_service__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
 		background-repeat: no-repeat;
-		width: 40px;
+		width: 50px;
 		height: 40px;
 
-		background-position: 0 -210px;
+		background-position: 5px -210px;
 	}
 	.brick_selection__ico {
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
@@ -218,7 +218,7 @@
 		background-image: url('https://berg.ru/bundles/bergsite/new/images/main_sprite.png?v8');
 		background-repeat: no-repeat;
 
-		width: 41px;
+		width: 50px;
 		height: 41px;
 
 		background-position: -100px -210px;
