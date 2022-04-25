@@ -5,8 +5,8 @@ export async function getItems(page) {
 }
 
 
-export async function getEfir() {
-	const path = `https://api.rocktver.ru/get-efir`
+export async function getTowns() {
+	const path = `https://api.rocktver.ru/towns`
 	const res = await fetch(path)
 	return await res.json()
 }

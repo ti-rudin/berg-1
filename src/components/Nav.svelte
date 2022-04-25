@@ -1,5 +1,5 @@
 <script>
-	import { isDarkFlag, isAdmin, screenmode } from '$lib/siteConfig';
+	import { isDarkFlag, isAdmin, localTown, screenmode } from '$lib/siteConfig';
 
 	import MobileMenu from './MobileMenu.svelte';
 	import NavLink from './NavLink.svelte';
@@ -9,6 +9,7 @@
 	$isAuthenticated = browser ? window.localStorage.getItem('isAuthenticated') ?? false : false;
 	$user = browser ? JSON.parse(window.localStorage.getItem('user')) ?? {} : {};
 	$isAdmin = browser ? JSON.parse(window.localStorage.getItem('isad')) ?? false : false;
+	$localTown = browser ? JSON.parse(window.localStorage.getItem('localTown')) ?? {name: "Москва", tel: "+7(495)788-95-97"} : {};
 
 	let isDark = false;
 	$isDarkFlag = false;
@@ -196,7 +197,7 @@
 				</g>
 			</svg>
 
-			<div class="cursor-pointer underline decoration-dashed">Москва</div>
+			<a href="/towns" class="text-white underline decoration-dashed">{$localTown.name}</a>
 		</div>
 		<a
 			class="flex h-9 items-center justify-center rounded-lg px-1  ring-blue-600  transition-all hover:no-underline hover:ring-2 text-gray-200

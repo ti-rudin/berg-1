@@ -6,7 +6,9 @@
 
 	import { isAuthenticated, user } from '$lib/stores/auth';
 	import { onMount } from 'svelte';
-	import { isDarkFlag, isAdmin, screenmode } from '$lib/siteConfig';
+	import { isDarkFlag, isAdmin, screenmode, localTown } from '$lib/siteConfig';
+	$localTown = browser ? JSON.parse(window.localStorage.getItem('localTown')) ?? {name: "Москва", tel: "+7(495)788-95-97"} : {};
+
 	import { browser } from '$app/env';
 </script>
 
@@ -21,7 +23,7 @@
 		<div class=" mx-auto" />
 		<div class="flex flex-col mt-2">
 		
-			<a href="tel:+74957889597" class="phone text-[1.3rem] sm:text-[1.9rem] text-gray-700 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">+7 (495) 788-95-97</a>
+			<a href={"tel:"+$localTown.tel} class="phone text-[1.3rem] sm:text-[1.9rem] text-gray-700 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">{$localTown.tel}</a>
 		
 		</div>
 	</div>

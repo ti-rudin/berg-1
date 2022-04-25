@@ -18,3 +18,4 @@ export const isDarkFlag = writable();
 export const isMngr = writable();
 export const isAdmin = writable();
 export const screenmode = writable();
+export const localTown = writable();
