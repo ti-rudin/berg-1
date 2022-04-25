@@ -70,7 +70,7 @@
 			</div>
 		</div>
 		<div class="hidden sm:block">
-			<div class="ml-4  flex flex-col  ">
+			<div class="ml-8  flex flex-col  ">
 				<a sveltekit:prefetch href="/" class="pt-4"> Компания </a>
 				<a sveltekit:prefetch href="/" class="pt-4"> О компании </a>
 				<a sveltekit:prefetch href="/" class="pt-4"> Новости </a>
@@ -82,7 +82,7 @@
 			</div>
 		</div>
 		<div class="hidden sm:block">
-			<div class="ml-4  flex flex-col  ">
+			<div class="ml-8  flex flex-col  ">
 				<a sveltekit:prefetch href="/" class="pt-4"> Оптовым покупателям </a>
 				<a sveltekit:prefetch href="/" class="pt-4"> Как стать клиентом </a>
 				<a sveltekit:prefetch href="/" class="pt-4"> Заказ продукции </a>
@@ -95,7 +95,7 @@
 		</div>
 		<div class=" mx-auto hidden sm:block" />
 		<div>
-			<div class="ml-4 mt-2 flex flex-col  ">
+			<div class="ml-4 mt-4 flex flex-col  ">
 				<h3>Центральный операционный офис</h3>
 				<address>Москва, 117623</address>
 				<address>ул. 2-я Мелитопольская, вл.4А, стр.40</address>
