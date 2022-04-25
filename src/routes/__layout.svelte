@@ -21,7 +21,7 @@
 		<div class=" mx-auto" />
 		<div class="flex flex-col mt-2">
 		
-			<a href="tel:+74957889597" class="phone text-[1.49rem] sm:text-[1.9rem] text-gray-700 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">+7 (495) 788-95-97</a>
+			<a href="tel:+74957889597" class="phone text-[1.3rem] sm:text-[1.9rem] text-gray-700 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">+7 (495) 788-95-97</a>
 		
 		</div>
 	</div>
