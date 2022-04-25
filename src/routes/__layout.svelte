@@ -32,7 +32,7 @@
 </div>
 </div>
 <div class="  bg-gray-100/10 dark:bg-gray-900 ">
-	<div class="mx-auto flex max-w-5xl pl-4 pr-3 pt-3">
+	<div class="mx-auto flex max-w-5xl pl-4 pr-3 ">
 		<form class="relative my-2 sm:w-4/6 w-full mx-auto" >
 			<input
 				type="search"
@@ -48,15 +48,15 @@
 	</div>
 </div>
 <main
-	class=" flex flex-col justify-center bg-gray-100/50 px-4 pb-4 pt-3 transition-all dark:bg-gray-900 "
+	class=" flex flex-col justify-center bg-gray-100/50 px-4 pb-4 pt-3 transition-all dark:bg-gray-900/60 "
 >
 	<slot />
 </main>
 
 <footer
-	class="podval-bg z-20 mb-4 flex   w-full  flex-col items-start justify-center text-white dark:bg-black/20"
+	class="podval-bg z-20 flex   w-full  flex-col items-start justify-center text-white dark:bg-black/20"
 >
-	<div class="mx-auto flex  w-full max-w-5xl">
+	<div class="mx-auto flex  w-full max-w-5xl pb-3">
 		<div class="hidden sm:block  ">
 			<div class="ml-4 flex flex-col">
 				<a sveltekit:prefetch href="/" class="pt-4"> Продукция </a>
@@ -66,7 +66,7 @@
 				<a sveltekit:prefetch href="/" class="pt-4"> Бренды </a>
 				<a sveltekit:prefetch href="/" class="pt-4"> Журнал BERG MAGAZINE </a>
 				<a sveltekit:prefetch href="/" class="pt-4"> Акции </a>
-				<a sveltekit:prefetch href="/" class="pt-4"> Катаоги брендов </a>
+				<a sveltekit:prefetch href="/" class="pt-4"> Каталоги брендов </a>
 			</div>
 		</div>
 		<div class="hidden sm:block">
@@ -110,8 +110,8 @@
 				<address>сб, вс: 10:00 - 18:00</address>
 			</div>
 			<a
-				class="ring-white-400 ml-4 mt-3 flex h-11 w-52 rounded-lg p-2 text-center text-black ring-2
-			transition-all  dark:text-white"
+				class="ring-white-400 ml-4 mt-3 flex h-11 w-52 rounded-lg p-2 text-center text-black 
+			transition-all  dark:text-white cursor-pointer  ring-blue-600 hover:ring-2 bg-blue-500/20 hover:bg-blue-500/90 focus:outline-none hover:no-underline"
 				href="https://che-tver.timepad.ru/event/1900315/"
 			>
 				<svg
@@ -250,10 +250,10 @@
 		</div>
 	</div>
 
-	<div class="mt-5 flex w-full  flex-col">
-		<div class="mx-auto mt-2 flex">
+	<div class="py-5 flex w-full text-white bg-black/50 flex-col">
+		<div class="mx-auto flex ">
 			<div class="lblock  text-right">
-				ООО БЕРГ Холдинг<a class="px-1" href="/rights">©</a>2006-2022
+				ООО БЕРГ Холдинг<a class="px-1" href="/privacy">©</a>2006-2022
 			</div>
 		</div>
 	</div>
