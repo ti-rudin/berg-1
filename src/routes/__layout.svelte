@@ -32,7 +32,7 @@
 </div>
 </div>
 <div class="  bg-gray-100/10 dark:bg-gray-900 ">
-	<div class="mx-auto flex max-w-5xl pl-4 pr-3 py-2">
+	<div class="mx-auto flex max-w-5xl pl-4 pr-3 pt-3">
 		<form class="relative my-2 sm:w-4/6 w-full mx-auto" >
 			<input
 				type="search"
