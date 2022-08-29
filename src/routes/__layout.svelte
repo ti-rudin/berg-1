@@ -255,7 +255,7 @@
 	<div class="py-5 flex w-full text-white bg-black/50 flex-col">
 		<div class="mx-auto flex ">
 			<div class="lblock  text-right">
-				ООО БЕРГ Холдинг<a class="px-1" href="/privacy">©</a>2006-2022
+				ООО БЕРГ Холдинг<a class="px-1" href="/privacy">©</a>2006 - 2022
 			</div>
 		</div>
 	</div>
