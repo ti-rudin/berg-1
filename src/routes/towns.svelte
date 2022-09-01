@@ -11,29 +11,27 @@
 	import { each } from 'svelte/internal';
 	//
 	
-	onMount(() => {
-		towns();
+	onMount(async () => {
+		let r = document.querySelector(':root');
 		
-		
+		let timerId = setInterval(() => {
+			r.style.setProperty('--cell-MU0Fsv9c0_hi0CxBfKlq-7','red');
+			setTimeout(() => {
+				
+				r.style.setProperty('--cell-MU0Fsv9c0_hi0CxBfKlq-7','grey');
+				isred = false;
+			}, 2000);
+			
+
+	}, 4000);
+
+
+
+	
 		//myFunction_set()
 	});
 let isred = false;
-	$: {
-		if (isred) {
-			setTimeout(() => {
-				let r = document.querySelector(':root');
-				r.style.setProperty('--qqcolor','green');
-				isred = false;
-			}, 3020);
-		} else {
-			setTimeout(() => {
-			
-				let r = document.querySelector(':root');
-				r.style.setProperty('--qqcolor','red')
-				isred = true;
-			}, 2300);
-		}
-	}
+	
 	function selectTown(town) {
 		$localTown = town;
 	}
@@ -58,7 +56,7 @@ let isred = false;
 	version="1.1"
 	width="1488px"
 	height="936px"
-	viewBox="-0.5 -0.5 1488 936"	style="background-color: rgb(255, 255, 255);"
+	viewBox="-0.5 -0.5 1488 936"	
 	><defs /><g
 		><g id="cell-MU0Fsv9c0_hi0CxBfKlq-3"
 			><path
@@ -1103,10 +1101,8 @@ let isred = false;
 	
 
 	#cell-MU0Fsv9c0_hi0CxBfKlq-7 path{
-		stroke:var( --qqcolor, green);
+		stroke:var( --cell-MU0Fsv9c0_hi0CxBfKlq-7, grey);
 	}
 
-	#cell-MU0Fsv9c0_hi0CxBfKlq-11 rect{
-		fill: var( --qqcolor, green);
-	}
+
 </style>
