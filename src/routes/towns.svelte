@@ -16,9 +16,12 @@
 		
 		let timerId = setInterval(() => {
 			r.style.setProperty('--cell-MU0Fsv9c0_hi0CxBfKlq-7','red');
+			r.style.setProperty('--cell-MU0Fsv9c0_hi0CxBfKlq-11','red');
+			
 			setTimeout(() => {
 				
 				r.style.setProperty('--cell-MU0Fsv9c0_hi0CxBfKlq-7','grey');
+				r.style.setProperty('--cell-MU0Fsv9c0_hi0CxBfKlq-11','#23a2d9');
 				isred = false;
 			}, 2000);
 			
@@ -1104,5 +1107,8 @@ let isred = false;
 		stroke:var( --cell-MU0Fsv9c0_hi0CxBfKlq-7, grey);
 	}
 
+	#cell-MU0Fsv9c0_hi0CxBfKlq-11 rect{
+		fill: var( --cell-MU0Fsv9c0_hi0CxBfKlq-11, #23a2d9);
+	}
 
 </style>
